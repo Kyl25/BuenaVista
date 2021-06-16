@@ -48,6 +48,18 @@ namespace BuenaVista.Module.BusinessObjects.BuenaVista
             get { return fFechaFin; }
             set { SetPropertyValue<DateTime>(nameof(FechaFin), ref fFechaFin, value); }
         }
+        string fNombre;
+        public string Nombre
+        {
+            get { return fNombre; }
+            set { SetPropertyValue<string>(nameof(Nombre), ref fNombre, value); }
+        }
+        string fCategoria;
+        public string Categoria
+        {
+            get { return fCategoria; }
+            set { SetPropertyValue<string>(nameof(Categoria), ref fCategoria, value); }
+        }
     }
 
 }
