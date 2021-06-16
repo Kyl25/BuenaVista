@@ -12,6 +12,8 @@ namespace BuenaVista.Module.BusinessObjects.BuenaVista
     {
         public VentaDiaria(Session session) : base(session) { }
         public override void AfterConstruction() { base.AfterConstruction(); }
+
+       
     }
 
 }

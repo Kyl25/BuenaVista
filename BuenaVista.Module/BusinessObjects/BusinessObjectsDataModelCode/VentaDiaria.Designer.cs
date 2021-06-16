@@ -36,17 +36,23 @@ namespace BuenaVista.Module.BusinessObjects.BuenaVista
             get { return fPromedio; }
             set { SetPropertyValue<decimal>(nameof(Promedio), ref fPromedio, value); }
         }
-        Producto fProducto;
-        public Producto Producto
+        string fProducto;
+        public string Producto
         {
             get { return fProducto; }
-            set { SetPropertyValue<Producto>(nameof(Producto), ref fProducto, value); }
+            set { SetPropertyValue<string>(nameof(Producto), ref fProducto, value); }
         }
         int fCantidad;
         public int Cantidad
         {
             get { return fCantidad; }
             set { SetPropertyValue<int>(nameof(Cantidad), ref fCantidad, value); }
+        }
+        string fNombreDelProducto;
+        public string NombreDelProducto
+        {
+            get { return fNombreDelProducto; }
+            set { SetPropertyValue<string>(nameof(NombreDelProducto), ref fNombreDelProducto, value); }
         }
     }
 
