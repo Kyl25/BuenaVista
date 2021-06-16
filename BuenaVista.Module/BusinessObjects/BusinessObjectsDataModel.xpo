@@ -1,2 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1efae491-61a4-40f1-bae8-ecfe7dfb3e3c" namespace="BuenaVista.Module.BusinessObjects.BuenaVista" dataBaseShemaInfo="H4sIAAAAAAAEAMVSXU/CMBR9N/E/LHvGdQOMSLoRGWqMSgig8bVsd1tj15K2+/DfWzY02dD46FvvuefknNwePKtzZpUgFRXctz3HtWfB+RmeEwUbLSRJ4YEnwjIsrqa1or6dab2fIlRVlVONHCFTNHRdD709P22iDHJyQbnShEdgf6viv1W2cbUsvCU7BqqxRC1ySAHxSoqoA7+2kYMFlLf1XoJSzoJo4pRD1/EG1nHtHyZn5LgDKyyYLiT4HAotCRtYq2LHaPQIH1vxDtzfTSaxd3U5jq9cF8bXBKMvi8YvZEQpUEuSw7pg0IAGvolNNEhofczVQpsi6UBryEUJfWKL9rmhuXzwwqOM8BRijJq5iYB+yoDNZfYgNf3nbL/EwPfAQRINochz4FoFWhaA0QncIS9A0dQ876gpQ0/R3TWyZcHYoTdzyEhJhTSlSIj5boxONqbaqNft4BOubnAtBAMAAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName=".BuenaVista" createdInVersion="20.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.1.3.0" name="BuenaVista" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel" />
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1efae491-61a4-40f1-bae8-ecfe7dfb3e3c" namespace="BuenaVista.Module.BusinessObjects.BuenaVista" dataBaseShemaInfo="H4sIAAAAAAAEAMVW227bRhB9L5B/EPTsFfdGLhlQDBLZCYy2huFL0NfZ3VmbKC8Cl5Tdv+9SkhVLSdoGVew3zpkZ7pyZw+Xk7x7rarLCzpdtM5+yGZ2+K978kn8Aj9d928EdnjeunYSoxr999OV8et/3y7dR9PDwMHsQs7a7izilLPrj99+uzT3WQMrG99AYnO6y7L9nTcOpk0l+A7pCPx65tp+QZ8ATdAE1Fmf1skKwrc+jL+Au7qwZsaLvBsyjrbFznpZ+BG6XFnosHFQ+BO2Du9hPQ2nPbcENOkiYJDTjnMg4FkQnEolUIqFOGkxceMc2eJe8aKuhbvwehe/CwTFy2DiLc3tZQVNWFeTRM3gv/J9I/ijR52QTxVHKGIizSIlEoUiGjBKhuUyVSbI4i78iG9Kj/8H3oq11hy/PVSADgzYlVsRxGGxmiKbhCWPnJDDLXEqPzfUjmnu4AFPWJTZ9+/KkJUfBueJE8zgjMkMkmumEUGuQaU2zRJpjk74c0L8GV5FIwSVqYkygKTPGCWiQo6yFiF3CM3n0AZ+FW9C2t36ArnwFylpJiFkiCUvCpyuzmBHAWBLFlKLhwpIS3LEp3wQp43u3fHm21GDKHIigXg5EQriyQDlLYgHWWuoMVz+H7bn3/uXpMhCCoTJEsIQR6awmkFITZp0gMBWzVBxdz2u6V+GueoWfEcdUxylLiLJOE5lKQTKrMmIUaGoSLlz63++qb6Hb/WGHbO0vIfm4DaG97FqzBifRBv68WZ2KU1ydPS479H52Cj3MVpzO2Mlk656P1kzM6MlkMVT90OG8waHvoDqZXA66Ks2v+NdN+yc2c52mNkxQWkUpyiw0++mI9XmLCrxHPw7gath1N39vQ2noysdtXRvoenB70BXW7QoPAzfoYewibIDFbRN+Us0d2tCz0d605ls15KEzS+z68pVr+04Z+acg3i7Ia9HWddCw32r0K3gv+BR9eRceP5ZBCgcZ+7512sUQNrWgmg94D6uy7YIoHIRxh+/l0BNW7Ohgxy7+BqSEb2KMCwAA" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName=".BuenaVista" createdInVersion="20.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.1.3.0" name="BuenaVista" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="5a89b373-8ac2-4fbc-b1f9-96df874a78f3">
+      <xpObject Id="2cefa614-0922-4553-b64e-47360f4ce6fe" name="Empleados" baseClass="XPObject" userFileName="Empleados" designerFileName="Empleados.Designer" className="Empleados" virtualName="Empleados">
+        <fields>
+          <generalXpObjectHasFields Id="68ba8118-8de4-427c-9e60-38ccf87e42fd">
+            <field Id="672e445a-fde0-4e37-9e10-3b2487c69595" name="IdPlanilla" columnType="Int32" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d547d283-9cdf-492a-9533-17efed3831b4">
+            <field Id="3e1aced8-d355-459c-b055-e5ff4a1d1f80" name="Nombre" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5a43b77d-ec4b-4013-af01-e4972e7e2d95">
+            <field Id="42e32272-b259-49ee-b1b6-0dce1bb0964c" name="FechaNacimiento" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6dfc8e6a-73de-40cd-bf79-f4a27d4f2ea1">
+            <field Id="364324eb-ccee-4912-aba4-4e3335f62940" name="Puesto" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8657dea9-6f02-414b-afa8-7144ef4cb16b">
+            <field Id="b74a5164-1637-4951-ae54-7177073644af" name="EstadoUsuario" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="30cd0fe9-7392-47b6-80b4-e29c206e939c">
+            <field Id="0ce81fa3-0d2a-4ae0-a7fd-53addd0fc27f" name="TieneAfp" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7eb17a97-9634-46f6-bc7c-505b1e02c859">
+            <field Id="1a331e7c-3161-4fdb-a80c-166ea1751830" name="TieneIsss" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b350b05a-3824-4f0c-af5a-c2663f4a862f">
+            <field Id="2e8b5816-7dfb-4843-9d79-c7ab0c623f8c" name="TieneRenta" columnType="Boolean" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

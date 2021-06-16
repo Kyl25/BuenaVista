@@ -139,6 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\ConnectionHelper.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Empleados.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>

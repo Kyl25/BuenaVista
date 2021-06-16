@@ -43,7 +43,12 @@ namespace BuenaVista.Win {
                 winApplication.DatabaseUpdateMode = DatabaseUpdateMode.UpdateDatabaseAlways;
             }
 #endif
-            try {
+
+            //Para actualizar la base de datos en debug
+            winApplication.DatabaseUpdateMode = DatabaseUpdateMode.UpdateDatabaseAlways;
+
+            try
+            {
                 winApplication.Setup();
                 winApplication.Start();
             }
