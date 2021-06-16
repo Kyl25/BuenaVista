@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<visualDesignerDiagram dslVersion="1.0.0.0" Id="37864b24-2030-40c9-bac1-c4b0a8c81180" absoluteBounds="0, 0, 11.875, 9.5" name="BusinessObjectsDataModel">
+<visualDesignerDiagram dslVersion="1.0.0.0" Id="37864b24-2030-40c9-bac1-c4b0a8c81180" absoluteBounds="0, 0, 11.875, 11.625" name="BusinessObjectsDataModel">
   <dataBaseObjectModelMoniker Id="1efae491-61a4-40f1-bae8-ecfe7dfb3e3c" />
   <nestedChildShapes>
     <xpObjectShape Id="23d9dea7-a241-4b4c-9121-365ff0597f81" absoluteBounds="0.5, 1.75, 1.5, 3.2934847005208319">
@@ -113,5 +113,17 @@
         <elementListCompartment Id="819d244a-5cef-4de6-9ad1-a40107ac8bac" absoluteBounds="8.884791984558106, 2.5771517125765482, 1.4700000000000002, 0.2493896484375" name="Collections" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </xpObjectShape>
+    <externalPersistentTypeShape Id="d7c4f2a5-2e75-464b-86a0-ea45ad3d1f8a" absoluteBounds="0.5, 9.75, 1.5, 1.6208968098958341">
+      <externalPersistentTypeMoniker Id="17005819-7195-4f93-bfcd-1f35f06ce8a0" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aba640e2-1e4a-4f97-947f-63ad53c2e169" absoluteBounds="0.515, 10.06, 1.4700000000000002, 1.2108968098958333" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </externalPersistentTypeShape>
+    <externalPersistentTypeShape Id="1373b5f3-ebc7-4fcf-9396-27147d7c1b47" absoluteBounds="2.5, 9.75, 1.5, 1.6208968098958341">
+      <externalPersistentTypeMoniker Id="16cc3694-df9e-4064-bce5-16c9d5d79347" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e8c697f-c196-45c2-83d7-4de663c877f8" absoluteBounds="2.515, 10.06, 1.4700000000000002, 1.2108968098958333" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </externalPersistentTypeShape>
   </nestedChildShapes>
 </visualDesignerDiagram>

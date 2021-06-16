@@ -215,5 +215,47 @@
         </fields>
       </xpObject>
     </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="c0b3a157-e88d-4ce6-92f7-273676a74f69">
+      <externalPersistentType Id="17005819-7195-4f93-bfcd-1f35f06ce8a0" name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole" nameSpace="DevExpress.Persistent.BaseImpl.PermissionPolicy" virtualName="PermissionPolicyRole" assemblyName="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll" deferredDeletion="False" optimisticLocking="False" hasDefaultConstructor="false" constructorParameterType="Session" hasSessionSpecifiedConstructor="false">
+        <fields>
+          <generalXpObjectHasFields Id="5c5c6900-0b00-4ddf-ac70-ecf0ca1174ab">
+            <externalPersistentTypeField Id="da682d70-e958-4c86-8eb6-0ca2cedefc11" name="oid" virtualColumnType="Guid" key="true" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="45fb6846-4b92-416f-97b7-465d55eb3181">
+            <externalPersistentTypeField Id="83cde3a5-67ff-42bf-8de8-1a0b2f5976e9" name="Name" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9c222a2c-0c28-4329-858f-75df5c12978a">
+            <externalPersistentTypeField Id="da75f417-533d-43d0-b00e-2071e8134db5" name="IsAdministrative" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="31391351-cdbf-4542-bf48-fdc7d1136234">
+            <externalPersistentTypeField Id="711b61cb-37d7-4021-b7c3-c0f15b4f94f7" name="CanEditModel" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4dfd5984-7d92-4492-bbc8-44652472d174">
+            <externalPersistentTypeField Id="c051a9d9-36ea-4daa-9a56-1488cf17ffa6" name="PermissionPolicy" virtualColumnType="SecurityPermissionPolicy" />
+          </generalXpObjectHasFields>
+        </fields>
+      </externalPersistentType>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="fa81f319-0e90-4724-966b-a4cc1950cb73">
+      <externalPersistentType Id="16cc3694-df9e-4064-bce5-16c9d5d79347" name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" nameSpace="DevExpress.Persistent.BaseImpl.PermissionPolicy" virtualName="PermissionPolicyUser" assemblyName="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll" deferredDeletion="False" optimisticLocking="False" hasDefaultConstructor="false" constructorParameterType="Session" hasSessionSpecifiedConstructor="false">
+        <fields>
+          <generalXpObjectHasFields Id="1a89028e-d504-466c-af89-659379a452a8">
+            <externalPersistentTypeField Id="f80981ab-711e-404b-869b-2c7b4166b1ef" name="oid" virtualColumnType="Guid" key="true" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="83576bc2-a603-46d9-8528-395e9e81d317">
+            <externalPersistentTypeField Id="1a2d6270-1d89-4854-8e14-9c84d525e20a" name="StoredPassword" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="640fbdc7-56b8-4a61-904f-43c9effd90ae">
+            <externalPersistentTypeField Id="e39b8198-5917-4875-b82e-0ec5eb104913" name="ChangePasswordOnFirstLogon" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="43c0ef67-b5a0-4b12-a383-2264f71d1033">
+            <externalPersistentTypeField Id="7ce96e83-8bec-4899-9868-17dec99b22b1" name="UserName" virtualColumnType="String" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9de2a83e-b9cb-4365-8c8d-dbe9bad060b5">
+            <externalPersistentTypeField Id="20cb2865-b2bc-4e1d-bb5f-796ff874e4f3" name="IsActive" virtualColumnType="Boolean" />
+          </generalXpObjectHasFields>
+        </fields>
+      </externalPersistentType>
+    </dataBaseObjectModelHasClasses>
   </classes>
 </dataBaseObjectModel>
