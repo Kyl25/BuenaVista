@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="BuenaVista" Company="Buena vista" Copyright="UES 2021">
   <BOModel>
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.ClienteDia" IsVisibleInReports="True" />
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.Compras" IsVisibleInReports="True" />
     <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.Empleados" IsVisibleInDashboards="True" IsVisibleInReports="True" />
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.HistorialLaboral" IsVisibleInReports="True" />
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.Planillas" IsVisibleInReports="True" />
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.Producto" IsVisibleInReports="True" />
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.RendimientoDiario" IsVisibleInReports="True" />
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.Stock" IsVisibleInReports="True" />
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.VentaDiaria" IsVisibleInReports="True" />
   </BOModel>
   <NavigationItems>
     <Items>
