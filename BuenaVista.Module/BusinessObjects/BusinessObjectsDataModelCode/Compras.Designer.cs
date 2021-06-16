@@ -54,6 +54,12 @@ namespace BuenaVista.Module.BusinessObjects.BuenaVista
             get { return fNombre; }
             set { SetPropertyValue<string>(nameof(Nombre), ref fNombre, value); }
         }
+        string fCategoria;
+        public string Categoria
+        {
+            get { return fCategoria; }
+            set { SetPropertyValue<string>(nameof(Categoria), ref fCategoria, value); }
+        }
     }
 
 }
