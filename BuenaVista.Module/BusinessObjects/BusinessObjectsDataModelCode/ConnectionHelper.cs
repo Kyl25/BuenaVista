@@ -18,7 +18,15 @@ namespace BuenaVista.Module.BusinessObjects.BuenaVista
     public static class ConnectionHelper
     {
         static Type[] persistentTypes = new Type[] {
-            typeof(Empleados)
+            typeof(Empleados),
+            typeof(HistorialLaboral),
+            typeof(RendimientoDiario),
+            typeof(Planillas),
+            typeof(Compras),
+            typeof(ClienteDia),
+            typeof(VentaDiaria),
+            typeof(Producto),
+            typeof(Stock)
         };
         public static Type[] GetPersistentTypes()
         {

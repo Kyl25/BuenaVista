@@ -66,6 +66,12 @@ namespace BuenaVista.Module.BusinessObjects.BuenaVista
             get { return fTieneRenta; }
             set { SetPropertyValue<bool>(nameof(TieneRenta), ref fTieneRenta, value); }
         }
+        [Association(@"HistorialLaboralReferencesEmpleados"), Aggregated]
+        public XPCollection<HistorialLaboral> HistorialLaborals { get { return GetCollection<HistorialLaboral>(nameof(HistorialLaborals)); } }
+        [Association(@"RendimientoDiarioReferencesEmpleados"), Aggregated]
+        public XPCollection<RendimientoDiario> RendimientoDiarios { get { return GetCollection<RendimientoDiario>(nameof(RendimientoDiarios)); } }
+        [Association(@"PlanillasReferencesEmpleados"), Aggregated]
+        public XPCollection<Planillas> PlanillasCollection { get { return GetCollection<Planillas>(nameof(PlanillasCollection)); } }
     }
 
 }

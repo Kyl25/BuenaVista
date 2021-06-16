@@ -138,10 +138,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\ClienteDia.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\ClienteDia.Designer.cs">
+      <DependentUpon>ClienteDia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Compras.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\ConnectionHelper.cs" />
     <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Empleados.cs" />
     <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Empleados.Designer.cs">
       <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\HistorialLaboral.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\HistorialLaboral.Designer.cs">
+      <DependentUpon>HistorialLaboral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Planillas.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Planillas.Designer.cs">
+      <DependentUpon>Planillas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Producto.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Producto.Designer.cs">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\RendimientoDiario.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\RendimientoDiario.Designer.cs">
+      <DependentUpon>RendimientoDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Stock.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\VentaDiaria.cs" />
+    <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\VentaDiaria.Designer.cs">
+      <DependentUpon>VentaDiaria.cs</DependentUpon>
     </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
@@ -154,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -174,6 +207,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Welcome.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Buena-Vista-Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

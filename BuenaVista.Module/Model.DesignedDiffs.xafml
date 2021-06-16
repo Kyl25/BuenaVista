@@ -1,8 +1,79 @@
-﻿<?xml version="1.0" ?>
-<Application Title="BuenaVista">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="BuenaVista" Company="Buena vista" Copyright="UES 2021">
+  <BOModel>
+    <Class Name="BuenaVista.Module.BusinessObjects.BuenaVista.Empleados" IsVisibleInDashboards="True" IsVisibleInReports="True" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@b87a6dfb-805d-40c4-bda2-c765b033f626" Caption="Inventario" ImageName="BO_Order_Item" Index="0" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Compras" ImageName="BO_Order" ViewId="Compras_ListView" IsNewNode="True" />
+          <Item Id="Existencias" Caption="Existencias" ImageName="Copy" ViewId="Stock_ListView" IsNewNode="True" />
+          <Item Id="Productos" Caption="Producto" ImageName="ProductOrderDetail-21" ViewId="Producto_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Ventas" Caption="Ventas" ImageName="Business_Money" Index="1" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@cec6afc3-924e-484c-b3db-a97797d94424" Caption="Venta Diaria" ImageName="BO_Sale_Item" ViewId="VentaDiaria_ListView" IsNewNode="True" />
+          <Item Id="ClientesDiarios" ImageName="BO_Department" ViewId="ClienteDia_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Planillas" Caption="Planillas" ImageName="BO_Contract" Index="2" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@cbe517a5-bf65-41eb-81c5-7a65eb4cbe9c" Caption="Rendimiento diario" ImageName="BO_Audit_ChangeHistory" ViewId="RendimientoDiario_ListView" IsNewNode="True" />
+          <Item Id="Empleados" Caption="Empleados" ImageName="BO_Lead" ViewId="Empleados_ListView" IsNewNode="True" />
+          <Item Id="HistorialLaboral" Caption="Historial laboral" ImageName="BO_Appointment" ViewId="HistorialLaboral_ListView" IsNewNode="True" />
+          <Item Id="Planillas" Caption="Planillas" ImageName="BO_Contact" ViewId="Planillas_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Seguridad" Caption="Seguridad" ImageName="BO_Security_Permission" Index="3" IsNewNode="True" />
+      <Item Id="Reports" Caption="Reportes" Index="4" />
+    </Items>
+  </NavigationItems>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="20.1.3.0" IsNewNode="True" />
+  </SchemaModules>
   <Views>
+    <DetailView Id="Empleados_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Empleados" RelativeSize="100" Direction="Vertical">
+              <LayoutGroup Id="Empleados_col1" RelativeSize="100" Caption="Empleados_col1" Direction="Horizontal">
+                <LayoutGroup Id="Auto194956ec-eab8-41c4-b29e-c4fe420b0c04" ShowCaption="False" Caption="" Index="0" RelativeSize="49.866666666666667" IsNewNode="True">
+                  <LayoutItem Id="Nombre" ViewItem="Nombre" Index="0" RelativeSize="6.5708418891170428" IsNewNode="True" />
+                  <LayoutItem Id="Puesto" ViewItem="Puesto" Index="1" RelativeSize="4.9281314168377826" IsNewNode="True" />
+                  <LayoutItem Id="TieneIsss" ViewItem="TieneIsss" Index="2" RelativeSize="4.9281314168377826" IsNewNode="True" />
+                  <LayoutItem Id="TieneRenta" ViewItem="TieneRenta" Index="3" RelativeSize="4.9281314168377826" IsNewNode="True" />
+                  <LayoutItem Id="TieneAfp" ViewItem="TieneAfp" Index="4" RelativeSize="4.9281314168377826" IsNewNode="True" />
+                  <LayoutItem Id="FechaNacimiento" ViewItem="FechaNacimiento" Index="5" RelativeSize="73.716632443531822" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="Nombre" ViewItem="Nombre" Index="0" RelativeSize="49.866666666666667" Removed="True" />
+                <LayoutGroup Id="Autobd10ef93-59e2-4990-8a96-fc667f84ba99" ShowCaption="False" Caption="" Index="1" RelativeSize="50.133333333333333" IsNewNode="True">
+                  <LayoutItem Id="IdPlanilla" ViewItem="IdPlanilla" Index="0" RelativeSize="6.5708418891170428" IsNewNode="True" />
+                  <LayoutItem Id="EstadoUsuario" ViewItem="EstadoUsuario" Index="1" RelativeSize="4.9281314168377826" IsNewNode="True" />
+                  <LayoutItem Id="Oid" ViewItem="Oid" Index="2" RelativeSize="88.50102669404518" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="FechaNacimiento" RelativeSize="71.428571428571431" Index="1" Removed="True" />
+                <LayoutItem Id="IdPlanilla" ViewItem="IdPlanilla" Index="1" RelativeSize="50.133333333333333" Removed="True" />
+                <LayoutItem Id="Puesto" RelativeSize="50" Index="2" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Empleados_col2" RelativeSize="50" Caption="Empleados_col2" Removed="True">
+                <LayoutItem Id="EstadoUsuario" RelativeSize="100" Removed="True" />
+                <LayoutItem Id="TieneAfp" RelativeSize="50" Removed="True" />
+                <LayoutItem Id="TieneIsss" RelativeSize="36.363636363636367" Removed="True" />
+                <LayoutItem Id="TieneRenta" RelativeSize="28.571428571428573" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" RelativeSize="50" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
   </Views>
 </Application>
