@@ -83,5 +83,6 @@
         </LayoutGroup>
       </Layout>
     </DetailView>
+    <ListView Id="VentaDiaria_ListView" ShowFindPanel="True" ShowAutoFilterRow="True" />
   </Views>
 </Application>
