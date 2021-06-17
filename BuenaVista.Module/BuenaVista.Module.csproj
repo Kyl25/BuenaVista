@@ -175,6 +175,12 @@
     <Compile Include="BusinessObjects\BusinessObjectsDataModelCode\VentaDiaria.Designer.cs">
       <DependentUpon>VentaDiaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\Login.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
@@ -185,6 +191,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Controllers\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
     <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
